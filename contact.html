@@ -5,7 +5,7 @@
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Gridx - Personal Portfolio HTML Template</title>
+		<title>Vansh Mehta - Personal Portfolio</title>
 
 		<!-- Fonts -->
 		<link rel="preconnect" href="https://fonts.googleapis.com/" />
@@ -21,6 +21,12 @@
 		<link rel="stylesheet" href="assets/css/aos.css" />
 
 		<link rel="stylesheet" href="assets/css/style.css" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap"
+			rel="stylesheet"
+		/>
 	</head>
 	<body>
 		<main class="main-aboutpage">
@@ -28,9 +34,26 @@
 			<header class="header-area">
 				<div class="container">
 					<div class="gx-row d-flex align-items-center justify-content-between">
-						<a href="index-2.html" class="logo">
-							<img src="assets/images/logo.svg" alt="Logo" />
-						</a>
+						<div class="col-md-6">
+							<a href="index-2.html" class="logo" style="padding-left: 15px">
+								<!-- <img src="assets/images/logo.svg" alt="Logo" /> -->
+								<!-- <img
+								src="assets/images/spaced_out.png"
+								style="width: 80%"
+								alt="Logo"
+							/> -->
+								<text
+									class="logo_text"
+									style="
+										font-family: 'Orbitron', sans-serif;
+										font-weight: 600;
+										color: white;
+										letter-spacing: 7px;
+									"
+									>SPACED OUT</text
+								>
+							</a>
+						</div>
 
 						<nav class="navbar">
 							<ul class="menu">
@@ -52,6 +75,37 @@
 					</div>
 				</div>
 			</header>
+			<!-- <header class="header-area">
+				<div class="container">
+					<div class="gx-row d-flex align-items-center justify-content-between">
+						<a href="index-2.html" class="logo">
+							<img
+								src="assets/images/spaced_out.png"
+								style="width: 80%"
+								alt="Logo"
+							/>
+						</a>
+
+						<nav class="navbar">
+							<ul class="menu">
+								<li><a href="index.html">Home</a></li>
+								<li><a href="about.html">About</a></li>
+								<li><a href="works.html">Works</a></li>
+								<li class="active"><a href="contact.html">Contact</a></li>
+							</ul>
+							<a href="contact.html" class="theme-btn">Let's talk</a>
+						</nav>
+
+						<a href="contact.html" class="theme-btn">Let's talk</a>
+
+						<div class="show-menu">
+							<span></span>
+							<span></span>
+							<span></span>
+						</div>
+					</div>
+				</div>
+			</header> -->
 
 			<!-- Contact -->
 			<section class="contact-area">
@@ -66,8 +120,20 @@
 									</div>
 									<div class="right">
 										<span>MAIL us</span>
-										<h4>info@bluebase.com</h4>
-										<h4>info@bluebase2.com</h4>
+										<h4>
+											<a
+												href="mailto:vanshmehta10.vm@gmail.com"
+												style="text-decoration: none; color: white"
+												>vanshmehta10.vm@gmail.com</a
+											>
+										</h4>
+										<h4>
+											<a
+												href="mailto:vanshmehta10@yahoo.com"
+												style="text-decoration: none; color: white"
+												>vanshmehta10@yahoo.com</a
+											>
+										</h4>
 									</div>
 								</li>
 
@@ -77,20 +143,24 @@
 									</div>
 									<div class="right">
 										<span>Contact Us</span>
-										<h4>+1 504-899-8221</h4>
-										<h4>+1 504-749-5456</h4>
+										<h4>
+											<a
+												href="tel:919833956601"
+												style="text-decoration: none; color: white"
+												>+91 9833-9566-01</a
+											>
+										</h4>
+										<!-- <h4>+91 8097782237</h4> -->
 									</div>
 								</li>
 
 								<li class="d-flex align-items-center" data-aos="zoom-in">
 									<div class="icon-box shadow-box">
-										<i class="iconoir-pin-alt"></i>
+										<i class="iconoir-map-pin"></i>
 									</div>
 									<div class="right">
 										<span>Location</span>
-										<h4>
-											22 Baker Street, Texas <br />United States <br />W1U 3BW
-										</h4>
+										<h4>Mumbai, Maharashtra, India</h4>
 									</div>
 								</li>
 							</ul>
@@ -98,18 +168,50 @@
 							<h3 data-aos="fade-up">Social Info</h3>
 							<ul class="social-links d-flex align-center" data-aos="zoom-in">
 								<li>
-									<a class="shadow-box" href="#"
-										><i class="iconoir-dribbble"></i
-									></a>
+									<a class="shadow-box" href="#">
+										<svg
+											class="whatsapp-icon"
+											xmlns="http://www.w3.org/2000/svg"
+											fill="currentColor"
+											class="bi bi-linkedin"
+											viewBox="0 0 20 20"
+											style="width: 50%; margin-top: -13px"
+										>
+											<path
+												d="M19.959 11.719v7.379h-4.278v-6.885c0-1.73-.619-2.91-2.167-2.91-1.182 0-1.886.796-2.195 1.565-.113.275-.142.658-.142 1.043v7.187h-4.28s.058-11.66 0-12.869h4.28v1.824l-.028.042h.028v-.042c.568-.875 1.583-2.126 3.856-2.126 2.815 0 4.926 1.84 4.926 5.792zM2.421.026C.958.026 0 .986 0 2.249c0 1.235.93 2.224 2.365 2.224h.028c1.493 0 2.42-.989 2.42-2.224C4.787.986 3.887.026 2.422.026zM.254 19.098h4.278V6.229H.254v12.869z"
+											/>
+										</svg>
+									</a>
 								</li>
 								<li>
-									<a class="shadow-box" href="#"
-										><i class="iconoir-twitter"></i
-									></a>
+									<a class="shadow-box" href="#">
+										<svg
+											class="whatsapp-icon"
+											xmlns="http://www.w3.org/2000/svg"
+											fill="currentColor"
+											class="bi bi-whatsapp"
+											viewBox="0 0 16 16"
+											style="width: 50%; margin-top: -13px"
+										>
+											<path
+												d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232"
+											/>
+										</svg>
+									</a>
 								</li>
 								<li>
-									<a class="shadow-box" href="#"
-										><i class="iconoir-instagram"></i
+									<a class="shadow-box" href="#">
+										<svg
+											class="whatsapp-icon"
+											xmlns="http://www.w3.org/2000/svg"
+											fill="currentColor"
+											class="bi bi-whatsapp"
+											viewBox="0 0 25 25"
+											style="width: 50%; margin-top: -13px"
+										>
+											<path
+												d="M17.34,5.46h0a1.2,1.2,0,1,0,1.2,1.2A1.2,1.2,0,0,0,17.34,5.46Zm4.6,2.42a7.59,7.59,0,0,0-.46-2.43,4.94,4.94,0,0,0-1.16-1.77,4.7,4.7,0,0,0-1.77-1.15,7.3,7.3,0,0,0-2.43-.47C15.06,2,14.72,2,12,2s-3.06,0-4.12.06a7.3,7.3,0,0,0-2.43.47A4.78,4.78,0,0,0,3.68,3.68,4.7,4.7,0,0,0,2.53,5.45a7.3,7.3,0,0,0-.47,2.43C2,8.94,2,9.28,2,12s0,3.06.06,4.12a7.3,7.3,0,0,0,.47,2.43,4.7,4.7,0,0,0,1.15,1.77,4.78,4.78,0,0,0,1.77,1.15,7.3,7.3,0,0,0,2.43.47C8.94,22,9.28,22,12,22s3.06,0,4.12-.06a7.3,7.3,0,0,0,2.43-.47,4.7,4.7,0,0,0,1.77-1.15,4.85,4.85,0,0,0,1.16-1.77,7.59,7.59,0,0,0,.46-2.43c0-1.06.06-1.4.06-4.12S22,8.94,21.94,7.88ZM20.14,16a5.61,5.61,0,0,1-.34,1.86,3.06,3.06,0,0,1-.75,1.15,3.19,3.19,0,0,1-1.15.75,5.61,5.61,0,0,1-1.86.34c-1,.05-1.37.06-4,.06s-3,0-4-.06A5.73,5.73,0,0,1,6.1,19.8,3.27,3.27,0,0,1,5,19.05a3,3,0,0,1-.74-1.15A5.54,5.54,0,0,1,3.86,16c0-1-.06-1.37-.06-4s0-3,.06-4A5.54,5.54,0,0,1,4.21,6.1,3,3,0,0,1,5,5,3.14,3.14,0,0,1,6.1,4.2,5.73,5.73,0,0,1,8,3.86c1,0,1.37-.06,4-.06s3,0,4,.06a5.61,5.61,0,0,1,1.86.34A3.06,3.06,0,0,1,19.05,5,3.06,3.06,0,0,1,19.8,6.1,5.61,5.61,0,0,1,20.14,8c.05,1,.06,1.37.06,4S20.19,15,20.14,16ZM12,6.87A5.13,5.13,0,1,0,17.14,12,5.12,5.12,0,0,0,12,6.87Zm0,8.46A3.33,3.33,0,1,1,15.33,12,3.33,3.33,0,0,1,12,15.33Z"
+											/></svg
 									></a>
 								</li>
 							</ul>
@@ -182,9 +284,9 @@
 			<footer class="footer-area">
 				<div class="container">
 					<div class="footer-content text-center">
-						<a href="index-2.html" class="logo">
-							<img src="assets/images/logo.svg" alt="Logo" />
-						</a>
+						<!-- <a href="index-2.html" class="logo">
+							<img src="assets/images/spaced_out.png" alt="Logo" />
+						</a> -->
 						<ul class="footer-menu">
 							<li><a href="index.html">Home</a></li>
 							<li><a href="about.html">About</a></li>
@@ -192,7 +294,7 @@
 							<li><a href="contact.html">Contact</a></li>
 						</ul>
 						<p class="copyright">
-							&copy; All rights reserved by <span>WordPress River</span>
+							&copy; All rights reserved by <span>Spaced Out Technologies</span>
 						</p>
 					</div>
 				</div>
